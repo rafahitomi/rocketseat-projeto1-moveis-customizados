@@ -1,6 +1,8 @@
 # Desafio Projeto 1 - Móveis Customizados
 
-Foi disponibilizado, pela Rocketseat, o código contendo bugs.
+Desafio do Stage 02 do curso Explorer.
+
+O código contendo bugs foi disponibilizado pela Rocketseat.
 
 O desafio foi organizar os arquivos HTML e CSS, além de fazer as alterações necessárias para que o layout seguisse corretamente o projeto do Figma.
 
