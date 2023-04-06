@@ -1,4 +1,4 @@
-# Desafio Projeto 1 - Móveis Customizados
+# Projeto 1 - Móveis Customizados
 
 Desafio do Stage 02 do curso Explorer.
 
