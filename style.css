@@ -82,7 +82,7 @@ span, a {
   }
 
   .titulo__principal {
-    font-size: 3.5rem;
+    font-size: 4.0rem;
   }
 
   #balls {
@@ -92,16 +92,15 @@ span, a {
 
 @media (max-width: 400px) {
   .principal, #line {
-    width: 25.0rem;
+    width: 28.0rem;
   }
 
   .titulo__principal {
-    font-size: 2.8rem;
-    line-height: 4.0rem;
+  font-size: 3.8rem;
+  line-height: 5.0rem;
   }
 
   .texto__principal, a {
-    font-size: 1.3rem;
     line-height: 2.5rem;
   }
 
