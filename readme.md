@@ -1,8 +1,6 @@
 # Projeto 1 - Móveis Customizados
 
-Desafio do Stage 02 do curso Explorer.
-
-O código contendo bugs foi disponibilizado pela Rocketseat.
+Desafio do Stage 02 do curso Explorer. O código contendo bugs foi disponibilizado pela Rocketseat.
 
 O desafio foi organizar os arquivos HTML e CSS, além de fazer as alterações necessárias para que o layout seguisse corretamente o projeto do Figma.
 
@@ -20,3 +18,9 @@ O desafio foi organizar os arquivos HTML e CSS, além de fazer as alterações n
 
 * HTML
 * CSS
+
+---
+
+## 📌 Link
+
+[Móveis Customizados](https://rocketseat-projeto1-moveis-customizados.vercel.app/) - Verifique no dispositivo móvel e desktop.
