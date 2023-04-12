@@ -1,53 +1,65 @@
+:root {
+  font-size: 62.5%; /* por padrão, os navegadores possuem 16px. Para facilitar a conversão para REM, vamos transformar 16px em 10px. Matematicamente, só é possível quando dividimos 10px em 16px = 0,625 ou 62.5% */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  margin: 0;
-}
-
-#hero {
-  width: 592px;
-  margin: 0 auto 72px;
-}
-
-#hero img {
-  margin-bottom: 72px;
-}
-
-h1 {
-  font-family: 'Inter', sans-serif;
-  color: #000000;
   font-weight: 400;
-  font-size: 49px;
-  line-height: 56px;
-  margin-bottom: 32px;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+
+  text-align: center;
 }
 
-h1 span {
+.principal {
+  width: 59.2rem;
+  margin: 0 auto 7.2rem;
+}
+
+.imagem__principal {
+  margin-bottom: 7.2rem;
+}
+
+.titulo__principal {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  color: #000000;
+  
+  margin-bottom: 3.2rem;
+}
+
+.titulo__principal span {
   font-weight: 700;
 }
 
 span, a {
-  color: #FF9900;
+  color: #D38218;
 }
 
-p, #footer {
+.texto__principal, .rodape {
   color: #7D7987;
-  font-size: 14px;
-  line-height: 28px;
 }
 
-#footer {
-  margin-bottom: 33px;
+.rodape {
+  margin-bottom: 3.3rem;
 }
 
-#footer a + a {
-  margin-left: 28px;
+.rodape a + a {
+  margin-left: 2.8rem;
 }
 
-#footer #line {
-  width: 568px;
+#line {
+  width: 56.8rem;
   height: 0;
-  margin: 0 auto 8px;
+  margin: 0 auto 0.8rem;
   border: 1px solid #ECEFF2;
 }
 
@@ -55,4 +67,45 @@ p, #footer {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 750px) {
+  .principal, #line {
+    width: 30.0rem;
+  }
+  
+  .imagem__principal {
+    width: 90%;
+    margin-bottom: 4.2rem;
+  }
+
+  .titulo__principal {
+    font-size: 3.5rem;
+  }
+
+  #balls {
+    width: 13%;
+  }
+}
+
+@media (max-width: 400px) {
+  .principal, #line {
+    width: 25.0rem;
+  }
+
+  .titulo__principal {
+    font-size: 2.8rem;
+    line-height: 4.0rem;
+  }
+
+  .texto__principal, a {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+
+  #balls {
+    width: 10%;
+  }
 }
